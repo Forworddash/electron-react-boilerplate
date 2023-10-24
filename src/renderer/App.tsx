@@ -23,12 +23,12 @@ import './App.css';
 //   );
 // }
 
-const user = {
-  name: 'Hedy Lamarr',
-  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-  imageSize: 90,
-  quote: 'This is what she said.',
-};
+// const user = {
+//   name: 'Hedy Lamarr',
+//   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+//   imageSize: 90,
+//   quote: 'This is what she said.',
+// };
 
 export default function Profile() {
   return (
@@ -64,19 +64,6 @@ export default function Profile() {
         </a>
       </div>
     </div>
-    <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-      <p>{user.quote}</p>
-    </>
   );
 }
 
