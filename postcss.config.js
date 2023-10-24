@@ -1,5 +1,5 @@
-/* eslint global-require: off, import/no-extraneous-dependencies: off */
+  /* eslint global-require: off, import/no-extraneous-dependencies: off */
 
-module.exports = {
+  module.exports = {
     plugins: [require('tailwindcss'), require('autoprefixer')],
   };
